@@ -64,7 +64,6 @@ sudo ufw status
 systemctl is-active fail2ban auditd 2>/dev/null
 ```
 Baseline Taken
-![[Pasted image 20260915045622.png]]
 ### Step 2, Write the hardening script
 
 ```bash
