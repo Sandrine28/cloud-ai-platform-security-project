@@ -80,7 +80,8 @@ ufw default deny incoming; ufw default allow outgoing; ufw allow 22/tcp; ufw --f
 Keep a second SSH session open while testing key-only login - locking yourself out is the classic mistake.
 
 Script created
-![[Pasted image 20260915050307.png]]
+<img width="612" height="160" alt="image" src="https://github.com/user-attachments/assets/c2153e51-1738-47fb-bcbe-5fb77ac296f9" />
+
 ### Step 3, Add brute-force, audit and auto-patch controls
 
 ```bash
