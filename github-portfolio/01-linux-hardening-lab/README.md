@@ -66,6 +66,8 @@ systemctl is-active fail2ban auditd 2>/dev/null
 Baseline Taken
 <img width="588" height="136" alt="image" src="https://github.com/user-attachments/assets/07637164-37a5-469b-98b8-a92300fda49b" />
 
+Baseline Image
+[[attachments/baseline.png]]
 ### Step 2, Write the hardening script
 
 ```bash
@@ -82,6 +84,7 @@ Keep a second SSH session open while testing key-only login - locking yourself o
 Script created
 <img width="612" height="160" alt="image" src="https://github.com/user-attachments/assets/c2153e51-1738-47fb-bcbe-5fb77ac296f9" />
 
+[[attachments/script created.png]]
 ### Step 3, Add brute-force, audit and auto-patch controls
 
 ```bash
